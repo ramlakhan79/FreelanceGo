@@ -32,26 +32,26 @@ const FindJobs = () => {
     const callFJ = async () => {
 
         try {
-            const res = await fetch(process.env.BACKEND_URL+'/Findjobs', {
-                method: "GET",                        //! IMP
-                headers: {
-                    Accept: "application/json",
-                    "Content-Type": "application/json"
-                },
-                credentials: "include"
+            const res = await fetch("http://localhost:5000"+ "/Findjobs", {
+              method: "GET", //! IMP
+              headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+              },
+              credentials: "include",
             });
             dispatch({ type: "USER", payload: true });
 
             const data = await res.json();
             // console.log(data);
 
-            if (!res.status === 200) {
+            if (res.status !== 200 || res.status !== 201 ){
                 const error = new Error(res.error);
                 throw error;
             }
         } catch (err) {
             console.log(err);
-            navigate('/Login')
+            navigate('/Find')
         }
     }
 

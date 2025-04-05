@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-
+require("dotenv").config();
 
 const userSchema = new mongoose.Schema({
     name: {
@@ -48,14 +48,14 @@ const userSchema = new mongoose.Schema({
     stars: {
         type: Number,
     },
-    tokens: [
-        {                                       // There are going to be many tokens right thats why taking an array.
-            token: {
-                type: String,
-                required: true
-            }
-        }
-    ],
+    // tokens: [
+    //     {                                       // There are going to be many tokens right thats why taking an array.
+    //         token: {
+    //             type: String,
+    //             required: true
+    //         }
+    //     }
+    // ],
 }, {
     timestamps: true
 }
@@ -74,10 +74,13 @@ userSchema.pre('save', async function (next) {       // Bcoz of 'pre' method, 'n
 //* For generating token
 userSchema.methods.generateAuthToken = async function () {
     try {
-        let token = jwt.sign({ _id: this._id }, process.env.SECRET_KEY)
-        this.tokens = this.tokens.concat({ token: token });
+        // let token = jwt.sign({ _id: this._id }, "secret",{
+        //     expiresIn: "1d",
+        //   })
+        // this.tokens = this.tokens.concat({ token: token });
         await this.save();
-        return token;
+        // console.log("token ", token);
+        // return token;
     }
     catch (err) {
         console.log("🚀 ~ file: userSchema.js:83 ~ err", err)
@@ -88,3 +91,4 @@ userSchema.methods.generateAuthToken = async function () {
 const User = mongoose.model('Users', userSchema)
 
 module.exports = User;
+
