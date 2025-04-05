@@ -294,6 +294,45 @@ const About = () => {
                 </li>
               </ul>
             </div>
+            <div
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-out"
+              className="about-card"
+            >
+              <div className="img">
+                <img src="#" alt="" loading="lazy" />
+              </div>
+              <div className="info">
+                <h3>Sachin Mewada</h3>
+                <span>Frontend Developer</span>
+              </div>
+              <ul className="social">
+                <li>
+                  <a href="/" className="fab fa-facebook">
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/" className="fab fa-twitter">
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/https://www.instagram.com/"
+                    className="fab fa-instagram"
+                  >
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/" className="fab fa-linkedin">
+                    <span></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </main>
       </Wrapper>
