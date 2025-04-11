@@ -1,4 +1,4 @@
-# 🧑‍💻 FreelanceGo - Fullstack Web App
+# 🧑‍💻 FreelanceGo - MERN Web App
 
 FreelanceGo is a MERN (MongoDB, Express, React, Node.js) stack web application that connects freelancers with clients. It supports features like authentication, job postings, payments (via Razorpay), real-time alerts, and more.
 
