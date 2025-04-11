@@ -20,7 +20,7 @@ Before you begin, make sure you have these installed:
 ## 📅 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/freelancego.git
+git clone https://github.com/ramlakhan79/freelancego.git
 cd freelancego
 ```
 
