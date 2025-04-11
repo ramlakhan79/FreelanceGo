@@ -1,93 +1,116 @@
-# 💼 FreelanceGo
+# 🧑‍💻 FreelanceGo - Fullstack Web App
 
-A full-stack freelance marketplace platform built using **MERN Stack** (MongoDB, Express, React, NodeJS).
-
----
-
-## 🛠 Tech Stack
-
-- **Frontend:** React, React Router, Material UI, Styled Components, Framer Motion, Axios, Yup, Formik, Swiper
-- **Backend:** Node.js, Express.js, MongoDB, Mongoose
-- **Authentication:** JWT, bcryptjs
-- **Payment Gateway:** Razorpay
-- **Communication:** Twilio (OTP)
+FreelanceGo is a MERN (MongoDB, Express, React, Node.js) stack web application that connects freelancers with clients. It supports features like authentication, job postings, payments (via Razorpay), real-time alerts, and more.
 
 ---
 
-## ⚙️ How to Run This Project Locally
+## 🚀 How to Run FreelanceGo Project Locally (Step-by-Step)
 
-### 📁 Step 1: Clone the Repository
+### 🪰 Prerequisites
 
+Before you begin, make sure you have these installed:
+
+- [Node.js & npm](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/try/download/community) or MongoDB Atlas
+- [Git](https://git-scm.com/)
+- [VS Code](https://code.visualstudio.com/)
+
+---
+
+## 📅 Step 1: Clone the Repository
+
+```bash
 git clone https://github.com/your-username/freelancego.git
 cd freelancego
-🔧 Backend Setup
-📂 Step 2: Navigate to the Backend Folder (if separated)
-If your backend code is inside a folder like backend, use:
+```
 
-cd backend
-If everything is in root, skip this step.
+---
 
-📦 Step 3: Install Backend Dependencies
+## 🛠️ Step 2: Set Up the Backend
 
+1. Navigate to the backend folder (server):
+
+```bash
+cd server
+```
+
+2. Install backend dependencies:
+
+```bash
 npm install
-🧪 Step 4: Create a .env file in the backend folder
-env
+```
 
+3. Create a `.env` file inside the server folder and add:
+
+```bash
 PORT=5000
-MONGODB_URI=your_mongodb_uri
+MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-TWILIO_ACCOUNT_SID=your_twilio_sid
-TWILIO_AUTH_TOKEN=your_twilio_token
-TWILIO_PHONE_NUMBER=your_twilio_phone
-▶️ Step 5: Run Backend Server
+```
 
+- Replace `your_mongodb_connection_string` with your local MongoDB or Atlas URI.
+- Replace `your_jwt_secret` with a strong secret key.
+
+4. Start the backend server:
+
+```bash
 npm start
-The backend will be running at: http://localhost:5000
+```
 
-🌐 Frontend Setup
-📂 Step 6: Navigate to the Frontend Folder
+✅ Backend runs at: http://localhost:5000
 
-cd ../frontend
-📦 Step 7: Install Frontend Dependencies
+---
 
+## 💻 Step 3: Set Up the Frontend
+
+1. Open a new terminal/tab.
+2. Navigate to the client folder:
+
+```bash
+cd client
+```
+
+3. Install frontend dependencies:
+
+```bash
 npm install
-🌍 Step 8: Start React Frontend
+```
 
+4. Start the React development server:
+
+```bash
 npm start
-
-The frontend will be available at: http://localhost:3000
-
-✅ Make sure this line exists in frontend/package.json:
-
-"proxy": "http://localhost:5000"
-This ensures API calls from frontend redirect to backend.
-
-🚦 Available Scripts
-🔹 Backend:
-npm start — Starts the backend Express server.
-
-🔹 Frontend:
-npm start — Runs the frontend React app.
-
-npm run build — Builds the frontend for production.
-
-npm test — Launches the test runner.
-
-🧾 Folder Structure (Optional)
 ```
-freelancego/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-├── README.md
-└── .env
-```
+
+✅ Frontend runs at: http://localhost:3000
+
+---
+
+## ✅ Step 4: Access the Application
+
+- Frontend: [http://localhost:3000](http://localhost:3000)
+- Backend API: [http://localhost:5000/api](http://localhost:5000/api)
+
+---
+
+## 📁 Google Drive Link
+
+Access documentation and reports:
+
+👉 [Google Drive - Project Docs](https://drive.google.com/drive/u/0/folders/14dyfvlVutqysNWqoi-9tnf1DdbcYvhwt)
+
+**Includes:**
+
+✅ Project Report (PDF)  
+✅ Project Presentation (PPT)
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Ramlakhan Lodhi**
+
+- 💼 GitHub: [github.com/ramlakhan79](https://github.com/ramlakhan79)
+
+---
 
