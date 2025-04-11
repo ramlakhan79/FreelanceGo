@@ -1,7 +1,7 @@
 {
-  "name": "freelansters",
+  "name": "freelancego",
   "version": "1.0.0",
-  "description": "Backend for Freelansters",
+  "description": "Backend for Freelancego",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -15,7 +15,7 @@
     "Mongodb",
     "NodeJS"
   ],
-  "author": "Bhanu1776",
+  "author": "Ramlakhan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/"

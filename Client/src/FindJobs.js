@@ -51,7 +51,7 @@ const FindJobs = () => {
             }
         } catch (err) {
             console.log(err);
-            navigate('/Find')
+            navigate('/FindJobs')
         }
     }
 
