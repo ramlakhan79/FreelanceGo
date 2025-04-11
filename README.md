@@ -76,7 +76,7 @@ npm run build — Builds the frontend for production.
 npm test — Launches the test runner.
 
 🧾 Folder Structure (Optional)
-
+```
 freelancego/
 ├── backend/
 │   ├── models/
@@ -89,3 +89,5 @@ freelancego/
 │   └── package.json
 ├── README.md
 └── .env
+```
+
