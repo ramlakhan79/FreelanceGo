@@ -108,29 +108,43 @@ Access documentation and reports:
 
 Below are sample screenshots of the project UI:
 
-Homepage
+## Homepage
+
 ![Home_Page](https://github.com/user-attachments/assets/4c2ff2a2-b34e-4991-96bf-ea4afd929581)
 
-User Profile
+## Job Categories
+![6_Job_Categories](https://github.com/user-attachments/assets/288df2e6-0267-4bb2-a976-b6ed6fe364a4)
 
-Rating & Reviews
+## Our Team
+![7_Our_Team](https://github.com/user-attachments/assets/6947415b-8f04-4f72-868c-fe006b03c71d)
 
-Chat Support
+## Chat Support
+![9_Chat_Support_1](https://github.com/user-attachments/assets/c415db9d-1028-43c2-aad0-288c96513298)
+![10_Chat_Support_2](https://github.com/user-attachments/assets/430f1ef7-ed16-47d6-a7d4-62662009cf71)
+![11_Chat_Support](https://github.com/user-attachments/assets/0f7dc644-2270-4642-bace-f935442b40c2)
 
-Signup / Login Page
+## Signup / Login Page
+![Signin](https://github.com/user-attachments/assets/a15015cd-96b9-4cc2-a6d8-7aec5465c7b5)
 
-Freelancer Listings
+![Login](https://github.com/user-attachments/assets/12695812-1e10-4e03-a47b-122b853ba7f0)
 
-Admin Dashboard
+## Profile
+![8_Profile](https://github.com/user-attachments/assets/44b14c2e-8972-4a7e-a573-2265ae732bc1)
 
-Post a Project Form
+## Find Jobs
+![3_Find_Jobs](https://github.com/user-attachments/assets/2f06477c-c929-450b-8cce-68292b480f8d)
 
-Project Management Panel
+## Filter Job Search
+![4_Filter_Search_Jobs](https://github.com/user-attachments/assets/5bce9708-fa6c-462d-8e70-76ae83df9008)
 
-Notification System
+## Post Jobs
+![9_Post_Jobs](https://github.com/user-attachments/assets/c99f0ad7-8e2f-4ec3-9d4a-248db3c97960)
 
-Payment Integration Page
+## Find Freelancer
+![1_Find_Freelancer](https://github.com/user-attachments/assets/b0aefc48-2473-49f2-b498-b1324b8e8dbd)
 
-Category & Skills Filter UI
+## User Rating
+![2_Freelancers_Rating](https://github.com/user-attachments/assets/8c5c97b3-4f86-4569-97a3-48c03e532fe0)
+
 
 
