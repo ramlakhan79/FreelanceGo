@@ -104,13 +104,4 @@ Access documentation and reports:
 ✅ Project Report (PDF)  
 ✅ Project Presentation (PPT)
 
----
-
-## 👨‍💻 Author
-
-Developed by **Ramlakhan Lodhi**
-
-- 💼 GitHub: [github.com/ramlakhan79](https://github.com/ramlakhan79)
-
----
 
