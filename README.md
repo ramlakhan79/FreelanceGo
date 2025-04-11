@@ -104,4 +104,33 @@ Access documentation and reports:
 ✅ Project Report (PDF)  
 ✅ Project Presentation (PPT)
 
+🖼️ Output Screens (UI Preview)
+
+Below are sample screenshots of the project UI:
+
+Homepage
+![Home_Page](https://github.com/user-attachments/assets/4c2ff2a2-b34e-4991-96bf-ea4afd929581)
+
+User Profile
+
+Rating & Reviews
+
+Chat Support
+
+Signup / Login Page
+
+Freelancer Listings
+
+Admin Dashboard
+
+Post a Project Form
+
+Project Management Panel
+
+Notification System
+
+Payment Integration Page
+
+Category & Skills Filter UI
+
 
