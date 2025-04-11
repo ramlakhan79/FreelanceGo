@@ -18,7 +18,6 @@ A full-stack freelance marketplace platform built using **MERN Stack** (MongoDB,
 
 ### 📁 Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/your-username/freelancego.git
 cd freelancego
 🔧 Backend Setup
@@ -57,6 +56,7 @@ npm install
 🌍 Step 8: Start React Frontend
 
 npm start
+
 The frontend will be available at: http://localhost:3000
 
 ✅ Make sure this line exists in frontend/package.json:
